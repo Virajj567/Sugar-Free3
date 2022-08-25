@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/consul4"
+    tools:context=".ConsultationFunc">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="    CONSULTATION"
+        android:textAlignment="gravity"
+        android:textColor="#651FFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Input"
+        android:layout_width="208dp"
+        android:layout_height="56dp"
+        android:background="@drawable/shape3"
+        android:hint="SUGAR LEVEL"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+
+        android:textColorHint="#000000"
+        android:textScaleX="1.2"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/InputAge"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/InputAge"
+        app:layout_constraintTop_toBottomOf="@+id/InputAge"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/InputAge"
+        android:layout_width="208dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/shape3"
+        android:hint="AGE"
+
+
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textScaleX="1.2"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewsgrlevel"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginEnd="8dp"
+        android:inputType="textPersonName"
+        android:text="SUGAR LEVEL:"
+        android:textColor="#651FFF"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Input"
+        app:layout_constraintEnd_toStartOf="@+id/Input"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Input"
+        app:layout_constraintVertical_bias="0.531" />
+
+    <TextView
+        android:id="@+id/textViewAge2"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginEnd="8dp"
+        android:inputType="textPersonName"
+        android:text="ENTER AGE:"
+        android:textColor="#651FFF"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/InputAge"
+        app:layout_constraintEnd_toStartOf="@+id/InputAge"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/InputAge"
+        app:layout_constraintVertical_bias="0.468" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/shape"
+        android:inputType="textPersonName"
+        android:textColor="#76FF03"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSugar"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/buttonSugar"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSugar" />
+
+    <Button
+        android:id="@+id/buttonPathology"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/shape1"
+        android:text="PATHOLOGIESTS NEAR ME"
+        app:layout_constraintEnd_toEndOf="@+id/textViewResult"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/textViewResult"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResult" />
+
+    <Button
+        android:id="@+id/buttonSugar"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/shape1"
+        android:text="PROCEED"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Input" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

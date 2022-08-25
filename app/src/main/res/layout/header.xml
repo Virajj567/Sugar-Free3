@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/ThemeOverlay.AppCompat.Dark"
+    android:layout_width="match_parent"
+    android:layout_height="172dp"
+    android:background="#651FFF"
+    android:padding="25dp">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="90sp"
+        android:layout_height="90sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/group_395" />
+
+
+
+</LinearLayout>

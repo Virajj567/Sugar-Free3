@@ -1,0 +1,21 @@
+.Vir{
+    height:100%;
+    width:100%;
+    animation-duration:1s;
+    animation-name: Viru;
+
+
+
+
+}
+
+@keyframes Viru {
+    from {
+    transform: scale(10);
+    opacity:0;
+    }
+    to {
+    transform: scale(1);
+    opacity:1;
+    }
+}

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SUGAR FREE</string>
+    <string-array name="typeofdiabetes">
+        <item>TYPE 1 DIABETES</item>
+        <item>TYPE 2 DIABETES</item>
+        <item>GESTATIONAL DIABETES</item>
+    </string-array>
+    <string-array name="gender">
+        <item>MALE</item>
+        <item>FEMALE</item>
+    </string-array>
+</resources>
